@@ -1,0 +1,47 @@
+name: mostanad_shonud
+description: "مستند صوتی شنود"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  audioplayers: ^6.1.0
+  vibration: ^3.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.png
+    - assets/audio/mostanad_soti_shonud_part1.mp3
+    - assets/audio/mostanad_soti_shonud_part2.mp3
+    - assets/audio/mostanad_soti_shonud_part3.mp3
+    - assets/audio/mostanad_soti_shonud_part4.mp3
+    - assets/audio/mostanad_soti_shonud_part5.mp3
+    - assets/audio/mostanad_soti_shonud_part6.mp3
+    - assets/audio/mostanad_soti_shonud_part7.mp3
+    - assets/audio/mostanad_soti_shonud_part8.mp3
+    - assets/audio/mostanad_soti_shonud_part9.mp3
+    - assets/audio/mostanad_soti_shonud_part10.mp3
+    - assets/audio/mostanad_soti_shonud_part11.mp3
+    - assets/audio/mostanad_soti_shonud_part12.mp3
+    - assets/audio/mostanad_soti_shonud_part13.mp3
+    - assets/audio/mostanad_soti_shonud_part14.mp3
+    - assets/audio/mostanad_soti_shonud_part15.mp3
+    - assets/audio/mostanad_soti_shonud_part16.mp3
+    - assets/audio/mostanad_soti_shonud_s2_part1.mp3
+    - assets/audio/mostanad_soti_shonud_s2_part2.mp3
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/logo.png"
